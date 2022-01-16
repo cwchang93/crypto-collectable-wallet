@@ -16,6 +16,13 @@ export const StyledHeader = styled.div`
   font-size: 32px;
   line-height:60px;
   
+    .backIcon{
+        cursor:pointer;
+        left:12px;
+        top:12px;
+        position:absolute;
+    }
+
  @media screen and (min-width: 768px) {
     height: 80px;
     line-height: 80px;

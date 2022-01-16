@@ -7,13 +7,13 @@ import ProductDetail from './pages/ProductDetail/ProductDetail';
 function App() {
   return (
     <div className="App">
-      <Header name="Crypto Collectable Wallet" />
 
       <Route path="/" exact>
+        <Header name="Crypto Collectable Wallet" />
         <List />
       </Route>
-      <Route path="/products/:id">
-        <List />
+      <Route path="/products/:contractAddress/:tokenId">
+        <ProductDetail />
       </Route>
 
     </div>
